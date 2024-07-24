@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.open-book-an-appointment-button {
+  display: inline-block;
+  background-color: #50945d;
+  color: white;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 60px;
+  margin-left: 80px;
+  white-space: nowrap;
+}
+.section-book-an-appointment {
+  display: none;
+  width: 492px;
+  height: 652px;
+  margin-top: 186px;
+  margin-left: 474px;
+  border-radius: 20px;
+  border: 1px solid #aeb4af33;
+  color: #ffffff;
+  box-shadow: 0px 8px 8px -4px #10182805;
+}
+.book-an-appointment-content {
+  padding: 20px;
+}
+.book-an-appointment-content h1 {
+  width: 177px;
+  height: 26px;
+  top: 20px;
+  left: 20px;
+  color: #0e140f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.book-an-appointment-content .underline {
+  width: 452px;
+  height: 1px;
+  background: #aeb4af33;
+  position: relative;
+  top: 25px;
+  padding-left: 20px;
+}
+
+.book-an-appointment-content .close-button {
+  position: relative;
+  bottom: 25px;
+  text-align: right;
+  cursor: pointer;
+  color: #0e140f;
+}
+.book-an-appointment-content form {
+  margin-top: 30px;
+}
+
+.book-an-appointment-form-group {
+  margin-bottom: 15px;
+}
+.book-an-appointment-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0e140f;
+  size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.book-an-appointment-form-group input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 5px;
+}
+.book-an-appointment-form-group input::placeholder,
+textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #aeb4af;
+}
+.book-an-appointment-content button {
+  display: inline-block;
+  background-color: #50945d;
+  color: white;
+  padding: 15px 160px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.book-an-appointment-content button:hover {
+  background-color: #3c6e47;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 48%;
+}
+
+.book-an-appointment-form-group select {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  color: #aeb4af;
+}
+.book-an-appointment-form-group select option:not(:nth-child(1)) {
+  color: black;
+}
+.section-book-an-appointment-confirmed {
+  display: none;
+  width: 492px;
+  height: 354px;
+  margin-top: 335px;
+  margin-left: 474px;
+  border-radius: 20px;
+  border: 1px solid #aeb4af33;
+  color: #ffffff;
+  box-shadow: 0px 8px 8px -4px #10182805;
+}
+.book-an-appointment-content-confirmed {
+  padding: 20px;
+  position: relative;
+}
+.book-an-appointment-content-confirmed h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: center;
+  color: #0e140f;
+  margin-top: 110px;
+  margin-left: 20px;
+}
+.book-an-appointment-content-confirmed p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #0e140f;
+  margin-top: 10px;
+  margin-left: 54px;
+}
+.book-an-appointment-content-confirmed .ellipsis {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.book-an-appointment-content-confirmed .ellipsis-1 {
+  width: 64px;
+  height: 64px;
+  top: 52px;
+  left: 214px;
+  background: #50945d;
+  z-index: 1;
+}
+
+.book-an-appointment-content-confirmed .ellipsis-2 {
+  width: 86px;
+  height: 86px;
+  top: 41px;
+  left: 203px;
+  background: #50945d33;
+  z-index: 1;
+}
+.book-an-appointment-content-confirmed .ellipsis-3 {
+  width: 108px;
+  height: 108px;
+  top: 30px;
+  left: 192px;
+  background: #50945d1a;
+  z-index: 1;
+}
+
+.book-an-appointment-content-confirmed img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 52px;
+  left: 214px;
+  z-index: 2;
+}
+.book-an-appointment-content-confirmed .button-done {
+  display: inline-block;
+  background-color: #50945d;
+  color: white;
+  padding: 15px 205px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+.book-an-appointment-content-confirmed .button-done:hover {
+  background-color: #3c6e47;
+}
